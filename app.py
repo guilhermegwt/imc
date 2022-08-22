@@ -24,8 +24,7 @@ def imc(p, a):
         return f"{res} - Obesidade Grau I"
     elif res >= 35.0 and res < 39.9:
         return f"{res} - Obesidade Grau II"
-    else:
-        return f"{res} - Obesidade Grau III"
+    return f"{res} - Obesidade Grau III"
 
 while True:  # Event Loop
     event, values = window.read()
