@@ -41,5 +41,3 @@ while True:  # Event Loop
             window['-OUTPUT-'].update("Valores inválidos!")
     if event == sg.WIN_CLOSED or event == 'Sair':
         break
-
-
